@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::mbproject22-log-archive-2026-590507089733-ap-south-1-an"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetObject",
+      "Resource": "arn:aws:s3:::mbproject22-log-archive-2026-590507089733-ap-south-1-an/*"
+    }
+  ]
+}
